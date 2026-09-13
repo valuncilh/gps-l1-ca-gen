@@ -67,7 +67,13 @@ int main() {
 	}
 
 	for(int i = 0; i < 10; ++i){
-		printf("%d", buf2[i]);
+		printf("%d ", buf2[i]);
+	}
+
+	printf("\n\n");
+
+	for(int i = 1023 - 10; i < 1024; ++i){
+		printf("%d ", buf2[i]);
 	}
 
 	return 0;
