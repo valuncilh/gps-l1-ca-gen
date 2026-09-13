@@ -52,3 +52,7 @@
 ```bash
 cd gen_app
 cargo run --release
+
+## Демонстрация
+
+<video src="docs/demo.webm" controls width="100%"></video>
