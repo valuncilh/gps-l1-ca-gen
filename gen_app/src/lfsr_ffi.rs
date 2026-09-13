@@ -10,7 +10,8 @@ pub fn generate() -> [u8; PERIOD] {
     buf
 }
 
-pub fn to_pml(bits: &[u8; PERIOD]) -> [i8; PERIOD] {
+#[allow(dead_code)]
+pub fn to_pm1(bits: &[u8; PERIOD]) -> [i8; PERIOD] {
     let mut out = [0i8; PERIOD];
     for i in 0..PERIOD {
         out[i] = if bits[i] == 0 { 1 } else { -1 }; 
